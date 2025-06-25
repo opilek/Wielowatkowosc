@@ -41,9 +41,12 @@ public synchronized void increment() {
 }
 Synchronizacja blokuje dostęp innym wątkom do tej metody/sekcji kodu aż do jej zakończenia.
 
-4. Pula wątków (ExecutorService)
+```
+
+## 4. Pula wątków (ExecutorService)
 Zarządzanie wieloma wątkami ułatwia pula wątków, która tworzy i ponownie wykorzystuje ograniczoną liczbę wątków.
 
+```java 
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
